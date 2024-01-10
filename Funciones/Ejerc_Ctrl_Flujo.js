@@ -8,6 +8,14 @@
  * Consideraciones: utilizar la estructura if-else
  */
 
+function mayorDeEdad (edad){
+    if (edad >= 18){
+        console.log("Edad apta para votar")
+    } else {
+        console.log("No cumple el minimo de edad para votar")
+    }
+}
+
 /** Ejercicio 2
  * 
  * Desarrolla un programa que permita obtener el promedio de un/a alumno/a
@@ -19,6 +27,33 @@
  * Consideraciones: utilizar la estructura if-else
  * 
  */
+
+function promedio (cal1, cal2, cal3, cal4) {
+if (((cal1 + cal2 + cal3 + cal4)/4) >= 7) {
+    console.log ("Aprobado")
+} else {
+    console.log ("Reprobado")
+}
+}
+
+/** Ejercicio 3
+ * 
+ * Desarrolla un programa que evalue si un numero es primo
+ * 
+ * Debe recibir como parametro un numero aleatorio
+ * 
+ * Consideraciones: utilizar la estructura if-else
+ */
+
+// function numPrimo (numero){
+//     if (numero>1 && numero%numero === 0 && numero%1 === 0) {
+//         console.log(`El ${numero} si es un numero primo`)
+//     } else {
+//         console.log(`El ${numero} no es un numero primo`)
+//     }
+// }
+
+
 
 /** Ejercicio 4
  * 
@@ -34,6 +69,19 @@
  * Consideracion - Utilizar la estructura if-else
  * Casos de prueba: 56, 7, 8, 0, 224, 73
  */
+
+function division (numero){
+    if (numero%7 === 0 && numero%8 === 0){
+        console.log("Verdadero")
+    } else console.log ("Falso")
+}
+
+division(56)
+division(7)
+division(8)
+division(0)
+division(224)
+division(73)
 
 /** Ejercicio 5
  * 
