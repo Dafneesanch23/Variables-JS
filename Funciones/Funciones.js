@@ -48,7 +48,7 @@ function sumarNumeros(a, b, c, d){
  * 1. Utilizar la palabra reservada const
  * 2. Asignar nombre
  * 3. Operador de asignación "=" y los parámetros entre ()
- * 4. fat arroz => y llaves {}
+ * 4. fat arrow => y llaves {}
  * 
  */
 

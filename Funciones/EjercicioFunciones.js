@@ -47,3 +47,30 @@ function formVoltaje (i, r) {
 function volEsfera (r) {
     console.log("Volumen=" + ((4/3) * Math.PI * (Math.pow(r, 3))));
     }
+
+//FUNCIONES FLECHA
+
+// 1. Perímetro de un círculo
+const periCirculo = (d) => (Math.PI * d);
+
+// 2. Área de un rectángulo
+
+const areaRectang = (b, h) => (b*h);
+    
+
+// 3. Cuadrado de un número
+
+const numCuadraro = (n) => (n * n);
+    
+    
+//4. Conversion de grados celsius a farenheit
+const celsiusFarenheit = (c) => ("°F= " + ((c *(9/5)) + 32));
+    
+
+//5. Valor del voltaje dadas la resistencia y la corriente
+const calcVoltaje = (i, r) => ("Voltaje= " + (i* r));
+    
+
+// 6. Volumen de una esfera
+const esferaVolum = (r) => ("Volumen= " + ((4/3) * Math.PI * (Math.pow(r, 3))));
+    
